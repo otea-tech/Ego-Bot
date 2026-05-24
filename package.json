@@ -1,0 +1,20 @@
+{
+  "name": "ego-bot",
+  "version": "1.0.0",
+  "description": "A powerful Discord moderation bot",
+  "main": "index.js",
+  "author": "Desire",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1",
+    "better-sqlite3": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
